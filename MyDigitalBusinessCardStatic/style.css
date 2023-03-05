@@ -1,0 +1,34 @@
+body{
+    margin:20px;
+    background-color:yellow;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    /* multiple font family are written because if first one is not present on the system then we will be trying to find out second and so on till the end reaches. */
+    text-align: center;
+}
+.avatar{
+    /* padding: 20px; */
+    /* margin: 10; */
+    width: 120px;
+    /* border:0.1rem solid darkorange ; */
+}
+.main{
+    width: 400px;
+    /* margin-left: auto;
+    margin-right: auto; */
+    /* inplace of above two lines I can just write- */
+    margin: 0 auto;
+    margin-top: 50px;
+    /* I have used above code to center my card */
+    border:0.15rem solid orange;
+    background-color:pink;
+    padding: 20px;
+    display: flex;
+    font-style: italic;
+    font-size: large;
+    justify-content: space-around;
+    /* The flex box just cares about it's direct childrens and not about their subchildrens. This is used to assign direct childrens in a horizontal line */
+}
+.about{
+    padding: 10px;
+    /* border: 0.1rem solid orange ; */
+}
