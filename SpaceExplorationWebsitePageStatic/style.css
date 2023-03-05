@@ -1,0 +1,38 @@
+body{
+    background-color: rgb(32, 31, 31);
+    color: #82a5ca;   
+    text-align: center;
+}
+.btn{
+    padding:6px 12px;
+    background:rgb(35, 29, 29);
+    border:none;
+    color: #82a5ca;
+    font-weight: bold;
+}
+.ul{
+    border-bottom: 4px solid white;
+}
+#main-logo{
+    width: 150px;
+    margin:0px;
+    /* text-align: center; */
+}
+#hero{
+    background-image: url("universe.jpg");
+    height:335px;
+    background-size:cover;
+    padding: 10px;
+    margin:10px;
+    /* width:900px; */
+    /* margin:10px */
+}
+/* #abc{
+    background-size: cover;
+} */
+/* .forflex{
+    display: flex;
+} */
+#title{
+    text-shadow:0px 0px 4px black;
+}
