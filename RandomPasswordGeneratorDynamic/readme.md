@@ -1,1 +1,1 @@
-This is random passwo
+This is random password generator
